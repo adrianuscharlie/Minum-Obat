@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "865801869464",
+    "project_id": "minumobat-dd80b",
+    "storage_bucket": "minumobat-dd80b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865801869464:android:69952248ec27bfccc118ed",
+        "android_client_info": {
+          "package_name": "com.example.farmasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865801869464-ves8v2jfetkkhhe4lm0nt77eil3nib68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBklt7IsnOTM_uBRzGCHw-WgCbHVb4X2EA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865801869464-ves8v2jfetkkhhe4lm0nt77eil3nib68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
