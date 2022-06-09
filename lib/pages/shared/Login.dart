@@ -116,7 +116,7 @@ class _LoginState extends State<Login> {
                   ),
                   onPressed: () async{
                     if(_formKey.currentState!.validate()){
-                      email=email+"@gmail.com";
+                      email=email+"@mail.com";
                       dynamic result=await _auth.signInWithEmailandPassword(email, password);
                       if(result!=null){
                         setState((){

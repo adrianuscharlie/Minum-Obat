@@ -9,15 +9,17 @@ class Pasien {
   List<String> resep = [];
   String uid = "";
   List<Resep> resep_obj=[];
+  int usia=0;
 
   Pasien({uid}) {
     this.uid=uid;
   }
 
-  Pasien.Complete({nama,id,gender}) {
+  Pasien.Complete({nama,id,gender,usia}) {
     this.nama = nama;
     this.id = id;
     this.gender = gender;
+    this.usia=usia;
   }
 
   factory Pasien.fromJson(dynamic json,uid) {
@@ -25,6 +27,7 @@ class Pasien {
       nama: json['nama'] as String,
       id: json['id'] as String,
       gender: json['gender'] as String,
+      usia: json['usia'] as int
     );
     pasien.uid=uid;
     return pasien;
