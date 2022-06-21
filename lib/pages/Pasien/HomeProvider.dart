@@ -25,6 +25,7 @@ class _HomeProviderState extends State<HomeProvider> {
   @override
   Widget build(BuildContext context) {
     MyUser pasien = widget.pasien;
+    DatabaseServices(uid: pasien.uid).storeNotificationToken(pasien.uid);
     return StreamProvider<Pasien>.value(
       value: DatabaseServices(uid: pasien.uid).userData,
       initialData: Pasien(uid: pasien.uid),

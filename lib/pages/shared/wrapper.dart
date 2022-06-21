@@ -5,6 +5,7 @@ import 'package:farmasi/Models/User.dart';
 import 'package:farmasi/pages/Pasien/HomePasien.dart';
 import 'package:farmasi/pages/Pasien/HomeProvider.dart';
 import 'package:farmasi/pages/shared/Authenticate.dart';
+import 'package:farmasi/service/Database.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -29,4 +30,5 @@ class Wrapper extends StatelessWidget {
     }
   }
 }
+
 

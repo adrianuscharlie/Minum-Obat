@@ -269,6 +269,7 @@ class _Input_ObatState extends State<Input_Obat> {
                         startDate=startDate.add(Duration(days: 1));
                       }
                       int count = 0;
+                      dynamic result=DatabaseServices(uid: pasien.uid).sendLocalNotification('Aku Sayang Lalak', 'cDiLBMkNR2G9q2X9j5xJTh:APA91bHEJjIR_ypEMKlieFfflOPai_jZQAgWkJPNDI6l-Ok55lcki2F5iYbrErdwYteCZZV1inbZLjtTyS7Cm9XogITSEaLBsrDYyS_CvKkNriSHsw6ysSKSl1lOcEp6RMuZ1fXtMmZ-');
                       Navigator.popUntil(context, (route) {
                         return count++ == 2;
                       });

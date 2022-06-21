@@ -1,12 +1,16 @@
+import 'dart:convert';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:farmasi/Models/Obat.dart';
 import 'package:farmasi/Models/Resep.dart';
 import 'package:farmasi/Models/User.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../Models/Jadwal.dart';
 import '../Models/Pasien.dart';
 import '../pages/Pasien/Jadwal.dart';
+import 'package:http/http.dart' as http;
 
 class DatabaseServices {
   final CollectionReference pasien =
@@ -19,6 +23,13 @@ class DatabaseServices {
 
   DatabaseServices({uid}) {
     this.uid = uid;
+  }
+
+  storeNotificationToken(uid)async{
+    String? token=await FirebaseMessaging.instance.getToken();
+    pasien.doc(uid).set({
+      'token':token
+    },SetOptions(merge: true));
   }
 
   List<Pasien> pasienListFromSnapshot(QuerySnapshot snapshot) {
@@ -97,6 +108,7 @@ class DatabaseServices {
   Future sendRecord(Pasien pasien, Jadwal jadwal) async {
     DateTime now = DateTime.now();
     String format = DateFormat('dd_MM_yyy_kk:mm').format(now);
+    bool status=now.compareTo(jadwal.jadwal)>0;
     return await this
         .pasien
         .doc(pasien.uid)
@@ -106,7 +118,8 @@ class DatabaseServices {
       'nama_obat': jadwal.nama_obat,
       'jam_konsumsi': Timestamp.now(),
       'nama': pasien.nama,
-      'jadwal_konsumsi':Timestamp.fromDate(jadwal.jadwal)
+      'jadwal_konsumsi':Timestamp.fromDate(jadwal.jadwal),
+      'telat':status
     });
   }
   Future deleteJadwal(Pasien pasien,String id_jadwal) async{
@@ -155,5 +168,36 @@ class DatabaseServices {
       'waktu_minum':stamp,
       'desc':desc
     });
+  }
+  sendLocalNotification(String title,String token) async {
+    final data={
+      'click_action':'FLUTTER_NOTIFICATION_CLICK',
+      'id':'1',
+      'status':'done',
+      'message':title
+    };
+    try{
+      http.Response response=await http.post(Uri.parse('https://fcm.googleapis.com/fcm/send'),headers: <String,String>{
+        'Content-Type':'application/json',
+        'Authorization':'key=AAAAyZXQGJg:APA91bG4KVKVnQFz39bOtfwKRR7e3JlfIrWNkk8HwwAvwPG7D_BhlZduNSI1_uXdBDWZf4fmH_ZAPM1K1uahiAHthN8-MrYZ7VPibgGc0QiXpwXvCqfpmXRskWioTyrAi2HlVNwvQUTZ'
+      },
+      body: jsonEncode(<String,dynamic>{
+        'notification':<String,dynamic>{
+          'title':title,
+          'body':'Aku sayang lalak',
+        },'priority':'high',
+        'data':data,
+        'to':token
+      }));
+
+      if(response.statusCode==200){
+        print("sucess");
+
+      }else{
+        print("error");
+      }
+    } catch(e){
+      print(e.toString());
+    }
   }
 }

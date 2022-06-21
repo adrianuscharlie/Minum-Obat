@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "865801869464",
-    "project_id": "minumobat-dd80b",
-    "storage_bucket": "minumobat-dd80b.appspot.com"
+    "project_number": "963756120865",
+    "project_id": "minum-obat",
+    "storage_bucket": "minum-obat.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:865801869464:android:69952248ec27bfccc118ed",
+        "mobilesdk_app_id": "1:963756120865:android:8ecc0f0a28bb2fed287c60",
         "android_client_info": {
           "package_name": "com.example.farmasi"
         }
       },
       "oauth_client": [
         {
-          "client_id": "865801869464-ves8v2jfetkkhhe4lm0nt77eil3nib68.apps.googleusercontent.com",
+          "client_id": "963756120865-e13gvvecvu4f04on29po27dohgma2svn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBklt7IsnOTM_uBRzGCHw-WgCbHVb4X2EA"
+          "current_key": "AIzaSyCs7ZLRJjMly1jp8a6NTvFsAYckoYO0d2A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "865801869464-ves8v2jfetkkhhe4lm0nt77eil3nib68.apps.googleusercontent.com",
+              "client_id": "963756120865-e13gvvecvu4f04on29po27dohgma2svn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
