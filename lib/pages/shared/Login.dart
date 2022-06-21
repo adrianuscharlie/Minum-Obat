@@ -123,7 +123,6 @@ class _LoginState extends State<Login> {
                           loading=true;
                         });
                       }else{
-                        print("Lolos");
                         _emailController.clear();
                         _passwordController.clear();
                       }
