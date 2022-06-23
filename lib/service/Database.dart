@@ -20,6 +20,7 @@ class DatabaseServices {
   final CollectionReference apoteker =
   FirebaseFirestore.instance.collection('apoteker');
   String uid = "";
+  final CollectionReference jadwal=FirebaseFirestore.instance.collection('jadwal');
 
   DatabaseServices({uid}) {
     this.uid = uid;
@@ -166,7 +167,19 @@ class DatabaseServices {
         .set({
       'nama_obat': nama_obat,
       'waktu_minum':stamp,
-      'desc':desc
+      'desc':desc,
+    });
+  }
+  Future createNotification(Pasien pasien,String nama_obat,int jam,int menit,DateTime jadwal) async{
+    DateTime time=DateTime(jadwal.year,jadwal.month,jadwal.day,jam,menit);
+    Timestamp stamp=Timestamp.fromDate(time);
+    return await this.jadwal.doc()
+        .set({
+      'nama':pasien.nama,
+      'jadwal':stamp,
+      'obat':nama_obat,
+      'status':false,
+      'token':pasien.token
     });
   }
   sendLocalNotification(String title,String token) async {
@@ -174,7 +187,9 @@ class DatabaseServices {
       'click_action':'FLUTTER_NOTIFICATION_CLICK',
       'id':'1',
       'status':'done',
-      'message':title
+      'message':title,
+      'isScheduled':'true',
+      'scheduledTime':'2022-06-21 22:10:00'
     };
     try{
       http.Response response=await http.post(Uri.parse('https://fcm.googleapis.com/fcm/send'),headers: <String,String>{
@@ -184,7 +199,7 @@ class DatabaseServices {
       body: jsonEncode(<String,dynamic>{
         'notification':<String,dynamic>{
           'title':title,
-          'body':'Aku sayang lalak',
+          'body':'Jangan Lupa Minum Obat Ya!',
         },'priority':'high',
         'data':data,
         'to':token

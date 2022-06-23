@@ -255,6 +255,7 @@ class _Input_ObatState extends State<Input_Obat> {
                       dynamic resep=DatabaseServices(uid: pasien.uid).addResep(pasien, Services().getObat(obat_onchange, obat).id, selectedTime, dosis, jeda, mulai, selesai);
                       Duration duration = endDate.difference(startDate);
                       int dur = duration.inDays;
+                      print(dur);
                       for (int i = 0; i < dur; i++) {
                         int jam=selectedTime.hour;
                         int menit=selectedTime.minute;
@@ -265,12 +266,13 @@ class _Input_ObatState extends State<Input_Obat> {
                           String format_jadwal = 'resep_' + (pasien.resep_obj.length + 1).toString() + '_' + obat_onchange +
                               "_" + i.toString() + "_" + j.toString();
                           dynamic result =DatabaseServices(uid: pasien.uid).addJadwal(format_jadwal, pasien, obat_onchange,Services().getObat(obat_onchange, obat).desc,jam,menit,startDate);
+                          dynamic hasil=DatabaseServices(uid: pasien.uid).createNotification(pasien, obat_onchange, jam,menit,startDate);
                         }
                         startDate=startDate.add(Duration(days: 1));
                       }
                       int count = 0;
                       print(pasien.token);
-                      dynamic result=DatabaseServices(uid: pasien.uid).sendLocalNotification('Aku Sayang Lalak', pasien.token);
+                      dynamic result=DatabaseServices(uid: pasien.uid).sendLocalNotification('Minum Obat', pasien.token);
                       Navigator.popUntil(context, (route) {
                         return count++ == 2;
                       });
