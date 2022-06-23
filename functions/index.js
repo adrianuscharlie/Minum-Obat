@@ -13,20 +13,21 @@ exports.sendNotification = functions.pubsub.schedule('* * * * *').onRun(async (c
         .where("status", "==", false).get();
 
     query.forEach(async snapshot => {
-        sendNotification(snapshot.data().token);
+        sendNotification(snapshot.data());
         await database.collection('jadwal').doc(snapshot.id).update({
             'status':true
         });
     });
 
-    function sendNotification(androidNotificationToken) {
-        let title = "Waktunya Minum Obat!";
-        let body = "Jangan lupa untuk minum obat, batas konsumsi obat adalah 2 Jam!";
+    function sendNotification(data) {
+        let androidNotificationToken=data.token
+        let title = "Waktunya Minum Obat,"+data.nama;
+        let body = "Jangan lupa untuk minum "+data.obat+", batas konsumsi obat adalah 2 Jam!";
 
         const message = {
             notification: { title: title, body: body },
             token: androidNotificationToken,
-            data: { click_action: 'FLUTTER_NOTIFICATION_CLICK' }
+            data: { click_action: 'FLUTTER_NOTIFICATION_CLICK',},
         };
 
         admin.messaging().send(message).then(response => {

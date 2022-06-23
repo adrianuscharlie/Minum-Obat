@@ -63,9 +63,9 @@ class _HomePasienState extends State<HomePasien> {
           children: [
             Center(
               child: CircleAvatar(
-                child: Text(pasien.nama[0],style: TextStyle(color: Colors.white,fontSize: 40),),
+                child: Image(image: AssetImage('assets/avatar.png'),),
                 radius: 50,
-                backgroundColor: Colors.grey[800],
+                backgroundColor: Colors.white,
               ),
             ),
             SizedBox(height: 20.0),
@@ -97,6 +97,25 @@ class _HomePasienState extends State<HomePasien> {
                   ),
                 ), SizedBox(width: 20.0,),
                 Text(pasien.id,style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20.0,
+                ),)
+              ],
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Usia        :",
+                  style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black
+                  ),
+                ), SizedBox(width: 20.0,),
+                Text(pasien.usia.toString(),style: TextStyle(
                   color: Colors.black,
                   fontSize: 20.0,
                 ),)

@@ -182,37 +182,5 @@ class DatabaseServices {
       'token':pasien.token
     });
   }
-  sendLocalNotification(String title,String token) async {
-    final data={
-      'click_action':'FLUTTER_NOTIFICATION_CLICK',
-      'id':'1',
-      'status':'done',
-      'message':title,
-      'isScheduled':'true',
-      'scheduledTime':'2022-06-21 22:10:00'
-    };
-    try{
-      http.Response response=await http.post(Uri.parse('https://fcm.googleapis.com/fcm/send'),headers: <String,String>{
-        'Content-Type':'application/json',
-        'Authorization':'key=AAAA4GRXWyE:APA91bERdo0YITGeU4mP1-WlqddC_qIkKuKvZwdh0o5p-NhSoAwb1UxThcdnyjRIzl9nSnksUmR-4QN9ZnewQKjbG-ms4ZPpcibH8NS6ZFvlyi8KlCByQZWU1bdJQKsq52cbN42rdz2D'
-      },
-      body: jsonEncode(<String,dynamic>{
-        'notification':<String,dynamic>{
-          'title':title,
-          'body':'Jangan Lupa Minum Obat Ya!',
-        },'priority':'high',
-        'data':data,
-        'to':token
-      }));
 
-      if(response.statusCode==200){
-        print("sucess");
-
-      }else{
-        print("error");
-      }
-    } catch(e){
-      print(e.toString());
-    }
-  }
 }
