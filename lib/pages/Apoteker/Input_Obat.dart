@@ -272,7 +272,6 @@ class _Input_ObatState extends State<Input_Obat> {
                       }
                       int count = 0;
                       print(pasien.token);
-                      dynamic result=DatabaseServices(uid: pasien.uid).sendLocalNotification('Minum Obat', pasien.token);
                       Navigator.popUntil(context, (route) {
                         return count++ == 2;
                       });

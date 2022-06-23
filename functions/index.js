@@ -3,31 +3,25 @@ const admin=require("firebase-admin");
 admin.initializeApp();
 const database = admin.firestore();
 
-exports.androidPushNotification=functions.firestore.document("Nofitifacion/{docId}").onCreate(
-    (snapshot,context)=>{
-        console.log(snapshot.data().title);
-        console.log(snapshot.data().body);
-    }
-);
 
 exports.sendNotification = functions.pubsub.schedule('* * * * *').onRun(async (context) => {
     //check whether notification should be sent
     //send it if yes
 
-    const query = await database.collection("notifications")
-        .where("whenToNotify", '<=', admin.firestore.Timestamp.now())
-        .where("notificationSent", "==", false).get();
+    const query = await database.collection("jadwal")
+        .where("jadwal", '<=', admin.firestore.Timestamp.now())
+        .where("status", "==", false).get();
 
     query.forEach(async snapshot => {
         sendNotification(snapshot.data().token);
-        await database.doc('notifications/' + snapshot.data().token).update({
-            "notificationSent": true,
+        await database.collection('jadwal').doc(snapshot.id).update({
+            'status':true
         });
     });
 
     function sendNotification(androidNotificationToken) {
-        let title = "Timed Notification";
-        let body = "Comes at the right time";
+        let title = "Waktunya Minum Obat!";
+        let body = "Jangan lupa untuk minum obat, batas konsumsi obat adalah 2 Jam!";
 
         const message = {
             notification: { title: title, body: body },
