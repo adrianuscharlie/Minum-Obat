@@ -26,7 +26,6 @@ class _PasienListState extends State<PasienList> {
   onSearch(String query) {
     setState(() {
       result= pasien.where((user) => user.nama.toLowerCase().contains(query)).toList();
-      print(result);
     });
   }
   @override

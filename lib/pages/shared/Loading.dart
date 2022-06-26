@@ -11,7 +11,6 @@ class Loading extends StatefulWidget {
 class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
-    print("sudah loading");
     return Container(
       color: Colors.blueAccent[100],
       child: SpinKitWave(

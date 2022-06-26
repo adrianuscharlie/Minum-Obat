@@ -17,7 +17,7 @@ class Wrapper extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<String> uid_apoteker=["JRUfFfnniEOe4oOghfyeWVqY1Lh1"];
+    List<String> uid_apoteker=["VREQwbFseyg8btOPgpVhlfS9EZQ2","PXAmEYnKHwaczo3n1gRjR1eSoRh1"];
     final user=Provider.of<MyUser?>(context);
     if(user==null){
       return Authenticate();

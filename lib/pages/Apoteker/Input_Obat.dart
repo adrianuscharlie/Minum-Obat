@@ -254,7 +254,10 @@ class _Input_ObatState extends State<Input_Obat> {
                       Timestamp selesai = Timestamp.fromDate(endDate);
                       dynamic resep=DatabaseServices(uid: pasien.uid).addResep(pasien, Services().getObat(obat_onchange, obat).id, selectedTime, dosis, jeda, mulai, selesai);
                       Duration duration = endDate.difference(startDate);
-                      int dur = duration.inDays;
+                      int dur = duration.inDays+1;
+                      if(dur==0 && duration.inSeconds>1){
+                        dur=1;
+                      }
                       for (int i = 0; i < dur; i++) {
                         int jam=selectedTime.hour;
                         int menit=selectedTime.minute;

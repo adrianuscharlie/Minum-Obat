@@ -27,7 +27,6 @@ class _HomePasienState extends State<HomePasien> {
   @override
   Widget build(BuildContext context) {
     final pasien = Provider.of<Pasien>(context);
-    print(pasien.gender);
     avatar = pasien.nama[0];
     return Scaffold(
       backgroundColor: Color.fromRGBO(250, 248, 246, 1),

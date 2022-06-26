@@ -34,7 +34,6 @@ class Services{
     for(int i=0;i<pasien_list.length;i++){
       if(pasien_list[i].uid.contains(pasien.uid)){
         pasien=pasien_list[i];
-        print(pasien.nama);
       }
     }
     return pasien;

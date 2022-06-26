@@ -124,7 +124,6 @@ class DatabaseServices {
     });
   }
   Future deleteJadwal(Pasien pasien,String id_jadwal) async{
-    print(id_jadwal);
     return await this
         .pasien.doc(pasien.uid)
         .collection('jadwal')
@@ -133,7 +132,6 @@ class DatabaseServices {
   }
 
   Future addPasien(String uid, String nama, String id, String gender) async {
-    print("Lolos");
     return await pasien.doc(uid).set({
       'nama': nama,
       'gender': gender,

@@ -112,7 +112,6 @@ class _LoginApotekerState extends State<LoginApoteker> {
                             loading=true;
                           });
                         }else{
-                          print("Lolos");
                           _emailController.clear();
                           _passwordController.clear();
                         }

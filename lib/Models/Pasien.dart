@@ -31,19 +31,9 @@ class Pasien {
       gender: json['gender'] as String,
       usia: json['usia'] as int,
       token: json['token']as String
-
     );
     pasien.uid=uid;
     return pasien;
   }
 
-  List<Obat> convertObat(List<String> id_obat, List<Obat> obat) {
-    List<Obat> convert = [];
-    for (int i = 0; i < obat.length; i++) {
-      if (id_obat[i] == obat[i].id) {
-        convert.add(obat[i]);
-      }
-    }
-    return convert;
-  }
 }

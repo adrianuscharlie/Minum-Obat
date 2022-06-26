@@ -5,13 +5,11 @@ const database = admin.firestore();
 
 
 exports.sendNotification = functions.pubsub.schedule('* * * * *').onRun(async (context) => {
-    //check whether notification should be sent
-    //send it if yes
 
     const query = await database.collection("jadwal")
         .where("jadwal", '<=', admin.firestore.Timestamp.now())
         .where("status", "==", false).get();
-
+    console.log(query);
     query.forEach(async snapshot => {
         sendNotification(snapshot.data());
         await database.collection('jadwal').doc(snapshot.id).update({
@@ -31,9 +29,9 @@ exports.sendNotification = functions.pubsub.schedule('* * * * *').onRun(async (c
         };
 
         admin.messaging().send(message).then(response => {
-            return console.log("Successful Message Sent");
+            return console.log("Successful Message Sent To "+data.nama);
         }).catch(error => {
-            return console.log("Error Sending Message");
+            return console.log("Error Sending Message To "+data.nama);
         });
     }
     return console.log('End Of Function');
