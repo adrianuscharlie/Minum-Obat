@@ -27,7 +27,6 @@ class _HomePasienState extends State<HomePasien> {
   @override
   Widget build(BuildContext context) {
     final pasien = Provider.of<Pasien>(context);
-    avatar = pasien.nama[0];
     return Scaffold(
       backgroundColor: Color.fromRGBO(250, 248, 246, 1),
       appBar: AppBar(
@@ -126,7 +125,7 @@ class _HomePasienState extends State<HomePasien> {
             Row(
               children: [
                 Text(
-                  "Gender   :",
+                  "Jenis Kelamin   :",
                   style: TextStyle(
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,

@@ -56,7 +56,7 @@ class _ListJadwalState extends State<ListJadwal> {
                       //Text("Tanggal Mulai :"+Services().jadwalPasien(resep[index].tanggal_mulai)),
                       //Text("Tanggal Selesai : "+Services().jadwalPasien(resep[index].tanggal_selesai)),
                       Text("Jadwal Konsumsi : " +
-                            jadwal[index].jadwal.toString(),
+                            jadwal[index].formattedDate,
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
                       ),

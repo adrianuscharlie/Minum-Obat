@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:farmasi/service/Database.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:intl/intl.dart';
 
 import '../../Models/Pasien.dart';
 import '../../service/Services.dart';
@@ -67,6 +68,8 @@ class _Input_ObatState extends State<Input_Obat> {
 
   @override
   Widget build(BuildContext context) {
+    final localizations = MaterialLocalizations.of(context);
+    String  formattedTimeOfDay = localizations.formatTimeOfDay(selectedTime);
     data=ModalRoute.of(context)!.settings.arguments as Map;
     obat=data['obat'];
     Pasien pasien=data['pasien'];
@@ -203,7 +206,7 @@ class _Input_ObatState extends State<Input_Obat> {
                     child: Text('Pilih Jam'),
                   ),
                   SizedBox(width: 20.0),
-                  Text(selectedTime.toString(),style: TextStyle(color: Colors.black),),
+                  Text(formattedTimeOfDay,style: TextStyle(color: Colors.black),),
                 ],
               ),
               SizedBox(height: 20.0,),
@@ -220,7 +223,7 @@ class _Input_ObatState extends State<Input_Obat> {
                     child: Text('Select date'),
                   ),
                   SizedBox(width: 20.0),
-                  Text("${startDate.toLocal()}".split(' ')[0],style: TextStyle(color: Colors.black,fontSize: 15),),
+                  Text(DateFormat('dd-MM-yyyy').format(startDate),style: TextStyle(color: Colors.black,fontSize: 15),),
                 ],
               ),
               SizedBox(height: 20.0,),
@@ -234,7 +237,7 @@ class _Input_ObatState extends State<Input_Obat> {
                     child: Text('Select date'),
                   ),
                   SizedBox(width: 20.0),
-                  Text("${endDate.toLocal()}".split(' ')[0],style: TextStyle(color: Colors.black,fontSize: 15)),
+                  Text(DateFormat('dd-MM-yyyy').format(endDate),style: TextStyle(color: Colors.black,fontSize: 15)),
                 ],
               ),
               SizedBox(height: 20.0),
@@ -254,7 +257,8 @@ class _Input_ObatState extends State<Input_Obat> {
                       Timestamp selesai = Timestamp.fromDate(endDate);
                       dynamic resep=DatabaseServices(uid: pasien.uid).addResep(pasien, Services().getObat(obat_onchange, obat).id, selectedTime, dosis, jeda, mulai, selesai);
                       Duration duration = endDate.difference(startDate);
-                      int dur = duration.inDays+1;
+                      int dur = duration.inDays;
+                      print(dur);
                       if(dur==0 && duration.inSeconds>1){
                         dur=1;
                       }

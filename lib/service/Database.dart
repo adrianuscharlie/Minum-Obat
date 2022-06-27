@@ -70,7 +70,10 @@ class DatabaseServices {
       String id = element.id;
       Jadwal pas = Jadwal.fromJson(element, id);
       if(pas.jadwal.isBefore(DateTime.now())){
-        jadwal.add(pas);
+        if(DateTime.now().isBefore(pas.jadwal.add(Duration(hours: 2)))){
+            jadwal.add(pas);  
+        }
+ 
       }
     });
     return jadwal;
@@ -85,6 +88,7 @@ class DatabaseServices {
       Obat bat = Obat.fromJson(element, id);
       obat.add(bat);
     });
+    obat.sort((a, b) => a.nama.compareTo(b.nama));
     return obat;
   }
 
@@ -109,7 +113,7 @@ class DatabaseServices {
   Future sendRecord(Pasien pasien, Jadwal jadwal) async {
     DateTime now = DateTime.now();
     String format = DateFormat('dd_MM_yyy_kk:mm').format(now);
-    bool status=now.compareTo(jadwal.jadwal)>0;
+    bool status=now.compareTo(jadwal.jadwal.add(Duration(hours: 1)))>0;
     return await this
         .pasien
         .doc(pasien.uid)
