@@ -28,9 +28,9 @@ class DatabaseServices {
 
   storeNotificationToken(uid)async{
     String? token=await FirebaseMessaging.instance.getToken();
-    pasien.doc(uid).set({
+    pasien.doc(uid).update({
       'token':token
-    },SetOptions(merge: true));
+    });
   }
 
   List<Pasien> pasienListFromSnapshot(QuerySnapshot snapshot) {

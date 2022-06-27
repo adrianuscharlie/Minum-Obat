@@ -89,7 +89,26 @@ class _ProfilePasienState extends State<ProfilePasien> {
                     Row(
                       children: [
                         Text(
-                          "Gender   :",
+                          "Usia            :",
+                          style: TextStyle(
+                            fontSize: 20.0,
+                            fontWeight: FontWeight.bold,
+                              color: Colors.black
+                          ),
+                        ), SizedBox(width: 20.0,),
+                        Text(pasien.tahun_lahir.toString(),style: TextStyle(
+                          fontSize: 20.0,
+                            color: Colors.black
+                        ),)
+                      ],
+                    ),
+                    SizedBox(
+                      height: 20.0,
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "Jenis Kelamin   :",
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
@@ -122,7 +141,7 @@ class _ProfilePasienState extends State<ProfilePasien> {
                     SizedBox(height: 20.0),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                          primary: Colors.white,
+                          primary: Colors.orangeAccent,
                           padding:
                           EdgeInsets.symmetric(horizontal: 20, vertical: 10)),
                       onPressed: () {
@@ -133,7 +152,7 @@ class _ProfilePasienState extends State<ProfilePasien> {
                       },
                       child: Text(
                         "Buat Resep Obat",
-                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0),
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0,color: Colors.white),
                       ),
                     ),
                   ],

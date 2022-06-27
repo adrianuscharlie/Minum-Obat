@@ -113,7 +113,7 @@ class _HomePasienState extends State<HomePasien> {
                       color: Colors.black
                   ),
                 ), SizedBox(width: 20.0,),
-                Text(pasien.usia.toString(),style: TextStyle(
+                Text(pasien.tahun_lahir.toString(),style: TextStyle(
                   color: Colors.black,
                   fontSize: 20.0,
                 ),)
