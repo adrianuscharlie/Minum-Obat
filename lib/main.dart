@@ -105,7 +105,7 @@ class _MyAppState extends State<MyApp> {
               color: Colors.white,
               // TODO add a proper drawable resource to android, for now using
               //      one that already exists in example app.
-              icon: 'ic_launcher.png',
+              icon: 'ic_launcher',
             ),
           ),
         );
