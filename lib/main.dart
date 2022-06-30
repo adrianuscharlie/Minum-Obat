@@ -18,8 +18,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:provider/provider.dart';
 
-
 import 'package:firebase_messaging/firebase_messaging.dart';
+
 const bool kIsWeb = identical(0, 0.0);
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // If you're going to use other Firebase services in the background, such as Firestore,
@@ -50,7 +50,7 @@ Future<void> main() async {
 
     await flutterLocalNotificationsPlugin
         .resolvePlatformSpecificImplementation<
-        AndroidFlutterLocalNotificationsPlugin>()
+            AndroidFlutterLocalNotificationsPlugin>()
         ?.createNotificationChannel(channel);
 
     await FirebaseMessaging.instance
@@ -99,10 +99,13 @@ class _MyAppState extends State<MyApp> {
             android: AndroidNotificationDetails(
               channel.id,
               channel.name,
-              channelDescription:channel.description,
+              channelDescription: channel.description,
+              playSound: true,
+              importance: Importance.high,
+              color: Colors.white,
               // TODO add a proper drawable resource to android, for now using
               //      one that already exists in example app.
-              icon: 'launch_background',
+              icon: 'ic_launcher.png',
             ),
           ),
         );
@@ -122,23 +125,22 @@ class _MyAppState extends State<MyApp> {
       child: MaterialApp(
         home: Wrapper(),
         routes: {
-          '/HomePasien':(context)=>HomePasien(),
-          '/HomeProvider':(context)=>HomeProvider(),
-          '/Jadwal':(context)=>JadwalScreen(),
-          '/Wrapper':(context)=>Wrapper(),
-          '/ApotekerProvider':(context)=>ApotekerProvider(),
-          '/Loading':(context)=>Loading(),
-          '/InputObat':(context)=>Input_Obat(),
-          '/RegistrasiPasien':(context)=>RegisterPasien(),
-          '/ProfilePasien':(context)=>ProfilePasien(),
-          '/ProfileProvider':(context)=>ProfileProvider(),
-          '/JadwalProvider':(context)=>JadwalProvider(),
+          '/HomePasien': (context) => HomePasien(),
+          '/HomeProvider': (context) => HomeProvider(),
+          '/Jadwal': (context) => JadwalScreen(),
+          '/Wrapper': (context) => Wrapper(),
+          '/ApotekerProvider': (context) => ApotekerProvider(),
+          '/Loading': (context) => Loading(),
+          '/InputObat': (context) => Input_Obat(),
+          '/RegistrasiPasien': (context) => RegisterPasien(),
+          '/ProfilePasien': (context) => ProfilePasien(),
+          '/ProfileProvider': (context) => ProfileProvider(),
+          '/JadwalProvider': (context) => JadwalProvider(),
         },
         theme: ThemeData(
           colorScheme: defaultColorScheme,
           primarySwatch: Colors.blue,
         ),
-
       ),
     );
   }

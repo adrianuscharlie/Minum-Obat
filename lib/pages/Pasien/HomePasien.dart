@@ -55,92 +55,110 @@ class _HomePasienState extends State<HomePasien> {
         scrollDirection: Axis.vertical,
         child: (Padding(
           padding: EdgeInsets.all(20.0),
-          child:Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Center(
-              child: CircleAvatar(
-                child: Image(image: AssetImage('assets/avatar.png'),),
-                radius: 50,
-                backgroundColor: Colors.white,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Center(
+                child: CircleAvatar(
+                  child: Image(
+                    image: AssetImage('assets/avatar.png'),
+                  ),
+                  radius: 50,
+                  backgroundColor: Colors.white,
+                ),
               ),
-            ),
-            SizedBox(height: 20.0),
-            Row(
-              children: [
-                Text(
-                  "Nama     :",
-                  style: TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black
+              SizedBox(height: 20.0),
+              Row(
+                children: [
+                  Text(
+                    "Nama     :",
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black),
                   ),
-                ), SizedBox(width: 20.0,),
-                Text(pasien.nama,style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20.0,
-                ),)
-              ],
-            ),
-            SizedBox(height: 20.0),
-            Row(
-              children: [
-                Text(
-                  "ID            :",
-                  style: TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black
+                  SizedBox(
+                    width: 20.0,
                   ),
-                ), SizedBox(width: 20.0,),
-                Text(pasien.id,style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20.0,
-                ),)
-              ],
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            Row(
-              children: [
-                Text(
-                  "Usia        :",
-                  style: TextStyle(
+                  Text(
+                    pasien.nama,
+                    style: TextStyle(
+                      color: Colors.black,
                       fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black
+                    ),
+                  )
+                ],
+              ),
+              SizedBox(height: 20.0),
+              Row(
+                children: [
+                  Text(
+                    "ID            :",
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black),
                   ),
-                ), SizedBox(width: 20.0,),
-                Text(pasien.tahun_lahir.toString(),style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20.0,
-                ),)
-              ],
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            Row(
-              children: [
-                Text(
-                  "Jenis Kelamin   :",
-                  style: TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black
+                  SizedBox(
+                    width: 20.0,
                   ),
-                ), SizedBox(width: 20.0,),
-                Text(pasien.gender,style: TextStyle(
-                  fontSize: 20.0,
-                  color: Colors.black
-                ),)
-              ],
-            ),
-
-          ],
-        ),
+                  Text(
+                    pasien.id,
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20.0,
+                    ),
+                  )
+                ],
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Row(
+                children: [
+                  Text(
+                    "Usia        :",
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black),
+                  ),
+                  SizedBox(
+                    width: 20.0,
+                  ),
+                  Text(
+                    pasien.tahun_lahir.toString(),
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20.0,
+                    ),
+                  )
+                ],
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Row(
+                children: [
+                  Text(
+                    "Jenis Kelamin   :",
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black),
+                  ),
+                  SizedBox(
+                    width: 20.0,
+                  ),
+                  Text(
+                    pasien.gender,
+                    style: TextStyle(fontSize: 20.0, color: Colors.black),
+                  )
+                ],
+              ),
+            ],
+          ),
         )),
       ),
       floatingActionButton: FloatingActionButton.extended(
@@ -148,11 +166,11 @@ class _HomePasienState extends State<HomePasien> {
           Navigator.pushNamed(context, '/JadwalProvider',
               arguments: {'uid': pasien.uid, 'pasien': pasien});
         },
-        label: const Text('Jadwal Minum Obat',style: TextStyle(
-          fontWeight: FontWeight.bold,
-          color: Colors.white
-        ),),
-        icon: const Icon(Icons.calendar_today,color: Colors.white),
+        label: const Text(
+          'Jadwal Minum Obat',
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+        ),
+        icon: const Icon(Icons.calendar_today, color: Colors.white),
         backgroundColor: Colors.orangeAccent,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

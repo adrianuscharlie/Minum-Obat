@@ -20,13 +20,13 @@ class _ProfilePasienState extends State<ProfilePasien> {
   @override
   Widget build(BuildContext context) {
     final Pasien pasien = Provider.of<Pasien>(context);
-    final List<Resep> resep=Provider.of<List<Resep>>(context);
-    List<Obat> obat=Provider.of<List<Obat>>(context);
-    pasien.resep_obj=resep;
+    final List<Resep> resep = Provider.of<List<Resep>>(context);
+    List<Obat> obat = Provider.of<List<Obat>>(context);
+    pasien.resep_obj = resep;
     return StreamBuilder(
-      stream: DatabaseServices(uid:pasien.uid).userData,
-      builder: (context,snapshot){
-        if(snapshot.hasData){
+      stream: DatabaseServices(uid: pasien.uid).userData,
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
           return Scaffold(
             backgroundColor: Color.fromRGBO(250, 248, 246, 1),
             appBar: AppBar(
@@ -44,7 +44,10 @@ class _ProfilePasienState extends State<ProfilePasien> {
                   children: [
                     Center(
                       child: CircleAvatar(
-                        child: Text(pasien.nama[0],style: TextStyle(color: Colors.white,fontSize: 40),),
+                        child: Text(
+                          pasien.nama[0],
+                          style: TextStyle(color: Colors.white, fontSize: 40),
+                        ),
                         radius: 50,
                         backgroundColor: Colors.grey[800],
                       ),
@@ -55,15 +58,20 @@ class _ProfilePasienState extends State<ProfilePasien> {
                         Text(
                           "Nama     :",
                           style: TextStyle(
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Expanded(
+                          child: Text(
+                            pasien.nama,
+                            style:
+                                TextStyle(fontSize: 20.0, color: Colors.black),
                           ),
-                        ), SizedBox(width: 20.0,),
-                        Text(pasien.nama,style: TextStyle(
-                          fontSize: 20.0,
-                            color: Colors.black
-                        ),)
+                        )
                       ],
                     ),
                     SizedBox(height: 20.0),
@@ -72,15 +80,17 @@ class _ProfilePasienState extends State<ProfilePasien> {
                         Text(
                           "ID            :",
                           style: TextStyle(
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                              color: Colors.black
-                          ),
-                        ), SizedBox(width: 20.0,),
-                        Text(pasien.id,style: TextStyle(
-                          fontSize: 20.0,
-                            color: Colors.black
-                        ),)
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          pasien.id,
+                          style: TextStyle(fontSize: 20.0, color: Colors.black),
+                        )
                       ],
                     ),
                     SizedBox(
@@ -89,17 +99,19 @@ class _ProfilePasienState extends State<ProfilePasien> {
                     Row(
                       children: [
                         Text(
-                          "Usia            :",
+                          "Usia        :",
                           style: TextStyle(
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                              color: Colors.black
-                          ),
-                        ), SizedBox(width: 20.0,),
-                        Text(pasien.tahun_lahir.toString(),style: TextStyle(
-                          fontSize: 20.0,
-                            color: Colors.black
-                        ),)
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          pasien.tahun_lahir.toString(),
+                          style: TextStyle(fontSize: 20.0, color: Colors.black),
+                        )
                       ],
                     ),
                     SizedBox(
@@ -110,15 +122,17 @@ class _ProfilePasienState extends State<ProfilePasien> {
                         Text(
                           "Jenis Kelamin   :",
                           style: TextStyle(
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                              color: Colors.black
-                          ),
-                        ), SizedBox(width: 20.0,),
-                        Text(pasien.gender,style: TextStyle(
-                          fontSize: 20.0,
-                            color: Colors.black
-                        ),)
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          pasien.gender,
+                          style: TextStyle(fontSize: 20.0, color: Colors.black),
+                        )
                       ],
                     ),
                     SizedBox(height: 20.0),
@@ -127,32 +141,35 @@ class _ProfilePasienState extends State<ProfilePasien> {
                         Text(
                           "Resep     :",
                           style: TextStyle(
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                              color: Colors.black
-                          ),
-                        ), SizedBox(width: 20.0,),
-                        Text(resep.length.toString()+" Resep",style: TextStyle(
-                          fontSize: 20.0,
-                            color: Colors.black
-                        ),)
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          resep.length.toString() + " Resep",
+                          style: TextStyle(fontSize: 20.0, color: Colors.black),
+                        )
                       ],
                     ),
                     SizedBox(height: 20.0),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
                           primary: Colors.orangeAccent,
-                          padding:
-                          EdgeInsets.symmetric(horizontal: 20, vertical: 10)),
+                          padding: EdgeInsets.symmetric(
+                              horizontal: 20, vertical: 10)),
                       onPressed: () {
-                        Navigator.pushNamed(context, '/InputObat',arguments: {
-                          'pasien':pasien,
-                          'obat':obat
-                        });
+                        Navigator.pushNamed(context, '/InputObat',
+                            arguments: {'pasien': pasien, 'obat': obat});
                       },
                       child: Text(
                         "Buat Resep Obat",
-                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15.0,color: Colors.white),
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15.0,
+                            color: Colors.white),
                       ),
                     ),
                   ],
@@ -160,7 +177,7 @@ class _ProfilePasienState extends State<ProfilePasien> {
               )),
             ),
           );
-        }else{
+        } else {
           return Loading();
         }
       },
