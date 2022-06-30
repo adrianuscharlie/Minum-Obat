@@ -41,7 +41,10 @@ class DatabaseServices {
       Pasien pas = Pasien.fromJson(element, uid);
       pasien.add(pas);
     });
+<<<<<<< HEAD
     pasien.sort((a, b) => a.nama.compareTo(b.nama));
+=======
+>>>>>>> 212101cebf3ef03d9aef4f935e6e97784c956e64
     return pasien;
   }
 
