@@ -96,23 +96,21 @@ class _MyAppState extends State<MyApp> {
           notification.title,
           notification.body,
           NotificationDetails(
-            android: AndroidNotificationDetails(
-              channel.id,
-              channel.name,
-              channelDescription: channel.description,
-              playSound: true,
-              importance: Importance.high,
-              color: Colors.white,
-              // TODO add a proper drawable resource to android, for now using
-              //      one that already exists in example app.
-              icon: 'ic_launcher',
-            ),
+            android: AndroidNotificationDetails(channel.id, channel.name,
+                channelDescription: channel.description,
+                playSound: true,
+                importance: Importance.high,
+                color: Colors.white,
+                // TODO add a proper drawable resource to android, for now using
+                //      one that already exists in example app.
+                icon: 'ic_launcher',
+                timeoutAfter: 7200000),
           ),
         );
       }
     });
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-      Navigator.pushNamed(context, '/Jadwal');
+      Navigator.pushNamed(context, '/JadwalProvider');
     });
     super.initState();
   }
