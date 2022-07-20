@@ -53,7 +53,7 @@ android {
         applicationId "com.farmasi_usd.minum_obat"
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
-        versionCode 6
+        versionCode 8
         versionName flutterVersionName
     }
 
