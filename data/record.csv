@@ -1,0 +1,1591 @@
+jadwal_konsumsi,jam_konsumsi,nama,nama_obat,telat,__key__,__error__,__has_error__
+2022-06-25T02:00:00Z,2022-06-26T08:03:20.077Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_1_Metformin_0_0_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin_0_0_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-25T05:00:00Z,2022-06-26T08:03:20.740Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_1_Metformin_0_1_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin_0_1_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-25T08:00:00Z,2022-06-26T08:03:21.245Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_1_Metformin_0_2_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin_0_2_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T02:00:00Z,2022-06-26T08:03:21.729Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_1_Metformin_1_0_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin_1_0_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T05:00:00Z,2022-06-26T08:03:22.179Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_1_Metformin_1_1_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin_1_1_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T08:00:00Z,2022-06-26T08:03:22.684Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_1_Metformin_1_2_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin_1_2_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-27T02:00:00Z,2022-06-27T03:20:14.439Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_1_Metformin_2_0_27_06_2022_10:20\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin_2_0_27_06_2022_10:20"",
+    ""id"": null
+  }
+}",[],false
+2022-06-25T18:18:00Z,2022-06-26T08:03:23.773Z,IbuC,Metformin,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_2_Metformin_0_0_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Metformin_0_0_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T02:00:00Z,2022-06-26T08:03:36.640Z,IbuC,Betahistin 6 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_3_Betahistin 6 mg_0_0_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Betahistin 6 mg_0_0_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T06:00:00Z,2022-06-26T08:03:37.167Z,IbuC,Betahistin 6 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_3_Betahistin 6 mg_0_1_26_06_2022_15:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Betahistin 6 mg_0_1_26_06_2022_15:03"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T10:00:00Z,2022-06-27T03:20:25.059Z,IbuC,Betahistin 6 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_3_Betahistin 6 mg_0_2_27_06_2022_10:20\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Betahistin 6 mg_0_2_27_06_2022_10:20"",
+    ""id"": null
+  }
+}",[],false
+2022-06-27T02:00:00Z,2022-06-27T03:20:25.553Z,IbuC,Betahistin 6 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_3_Betahistin 6 mg_1_0_27_06_2022_10:20\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Betahistin 6 mg_1_0_27_06_2022_10:20"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T17:00:00Z,2022-06-27T04:06:57.820Z,IbuC,Bisoprolol 5,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_4_Bisoprolol 5_0_0_27_06_2022_11:06\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Bisoprolol 5_0_0_27_06_2022_11:06"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T20:00:00Z,2022-06-27T04:06:58.090Z,IbuC,Bisoprolol 5,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_4_Bisoprolol 5_0_1_27_06_2022_11:06\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Bisoprolol 5_0_1_27_06_2022_11:06"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T23:00:00Z,2022-06-27T04:06:59.922Z,IbuC,Bisoprolol 5,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""vsbHCYE0nbg9fjuaFKpWYe5MP8m1\"", \""record\"", \""resep_4_Bisoprolol 5_0_2_27_06_2022_11:06\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Bisoprolol 5_0_2_27_06_2022_11:06"",
+    ""id"": null
+  }
+}",[],false
+2022-06-29T06:05:00Z,2022-06-29T06:05:26.275Z,BapakA,Acarbose 100 (9 x 1),false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_4_Acarbose 100 (9 x 1)_0_0_29_06_2022_13:05\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Acarbose 100 (9 x 1)_0_0_29_06_2022_13:05"",
+    ""id"": null
+  }
+}",[],false
+2022-06-27T03:00:00Z,2022-06-27T04:25:24.964Z,BapakA,Bisoprolol 5,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_7_Bisoprolol 5_0_0_27_06_2022_11:25\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_7_Bisoprolol 5_0_0_27_06_2022_11:25"",
+    ""id"": null
+  }
+}",[],false
+2022-06-27T04:00:00Z,2022-06-27T04:40:40.162Z,BapakA,Adalat Oros,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_9_Adalat Oros_0_1_27_06_2022_11:40\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_9_Adalat Oros_0_1_27_06_2022_11:40"",
+    ""id"": null
+  }
+}",[],false
+2022-06-27T02:00:00Z,2022-06-27T03:39:14.165Z,BapakA,Acarbose 100,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_1_Acarbose 100_0_0_27_06_2022_10:39\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Acarbose 100_0_0_27_06_2022_10:39"",
+    ""id"": null
+  }
+}",[],false
+2022-06-27T12:00:00Z,2022-06-27T13:51:51.248Z,BapakA,Amlodipin 5,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_1_Amlodipin 5_0_2_27_06_2022_20:51\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Amlodipin 5_0_2_27_06_2022_20:51"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T17:00:00Z,2022-06-27T03:46:01.058Z,BapakA,HCT 25 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_2_HCT 25 mg_0_0_27_06_2022_10:46\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_HCT 25 mg_0_0_27_06_2022_10:46"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T23:00:00Z,2022-06-27T03:46:01.615Z,BapakA,HCT 25 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_2_HCT 25 mg_0_1_27_06_2022_10:46\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_HCT 25 mg_0_1_27_06_2022_10:46"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T17:00:00Z,2022-06-27T03:51:24.704Z,BapakA,Bisoprolol 5,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_3_Bisoprolol 5_0_0_27_06_2022_10:51\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Bisoprolol 5_0_0_27_06_2022_10:51"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T23:00:00Z,2022-06-27T03:51:25.378Z,BapakA,Bisoprolol 5,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_3_Bisoprolol 5_0_1_27_06_2022_10:51\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Bisoprolol 5_0_1_27_06_2022_10:51"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T17:00:00Z,2022-06-27T03:52:35.630Z,BapakA,Candesartan 16,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_4_Candesartan 16_0_0_27_06_2022_10:52\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Candesartan 16_0_0_27_06_2022_10:52"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T23:00:00Z,2022-06-27T03:52:36.399Z,BapakA,Candesartan 16,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_4_Candesartan 16_0_1_27_06_2022_10:52\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Candesartan 16_0_1_27_06_2022_10:52"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T17:00:00Z,2022-06-27T03:54:57.143Z,BapakA,Clonidin 0.15 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_5_Clonidin 0.15 mg_0_0_27_06_2022_10:54\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Clonidin 0.15 mg_0_0_27_06_2022_10:54"",
+    ""id"": null
+  }
+}",[],false
+2022-06-26T23:00:00Z,2022-06-27T03:54:57.775Z,BapakA,Clonidin 0.15 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_5_Clonidin 0.15 mg_0_1_27_06_2022_10:54\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Clonidin 0.15 mg_0_1_27_06_2022_10:54"",
+    ""id"": null
+  }
+}",[],false
+2022-06-27T03:56:00Z,2022-06-27T03:56:27.461Z,BapakA,Candesartan 8,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""PbVXz7VobWbpqQdEyOTypiC7Ati2\"", \""record\"", \""resep_6_Candesartan 8_0_0_27_06_2022_10:56\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_6_Candesartan 8_0_0_27_06_2022_10:56"",
+    ""id"": null
+  }
+}",[],false
+2022-08-15T05:00:00Z,2022-08-15T06:33:32.264Z,ETTY ASTUTI,Ryzodeg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_1_Ryzodeg_19_1_15_08_2022_13:33\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Ryzodeg_19_1_15_08_2022_13:33"",
+    ""id"": null
+  }
+}",[],false
+2022-08-16T05:00:00Z,2022-08-16T06:43:46.057Z,ETTY ASTUTI,Ryzodeg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_1_Ryzodeg_20_1_16_08_2022_13:43\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Ryzodeg_20_1_16_08_2022_13:43"",
+    ""id"": null
+  }
+}",[],false
+2022-08-20T05:00:00Z,2022-08-20T06:40:55.828Z,ETTY ASTUTI,Ryzodeg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_1_Ryzodeg_24_1_20_08_2022_13:40\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Ryzodeg_24_1_20_08_2022_13:40"",
+    ""id"": null
+  }
+}",[],false
+2022-08-15T05:00:00Z,2022-08-15T06:33:33.421Z,ETTY ASTUTI,Metformin 500 mg (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_2_Metformin 500 mg (3 x 1)_19_1_15_08_2022_13:33\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Metformin 500 mg (3 x 1)_19_1_15_08_2022_13:33"",
+    ""id"": null
+  }
+}",[],false
+2022-08-16T05:00:00Z,2022-08-16T06:43:47.247Z,ETTY ASTUTI,Metformin 500 mg (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_2_Metformin 500 mg (3 x 1)_20_1_16_08_2022_13:43\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Metformin 500 mg (3 x 1)_20_1_16_08_2022_13:43"",
+    ""id"": null
+  }
+}",[],false
+2022-08-20T05:00:00Z,2022-08-20T06:40:54.921Z,ETTY ASTUTI,Metformin 500 mg (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_2_Metformin 500 mg (3 x 1)_24_1_20_08_2022_13:40\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Metformin 500 mg (3 x 1)_24_1_20_08_2022_13:40"",
+    ""id"": null
+  }
+}",[],false
+2022-07-29T05:00:00Z,2022-07-29T06:23:44.687Z,ETTY ASTUTI,Metformin 500 mg (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_2_Metformin 500 mg (3 x 1)_2_1_29_07_2022_13:23\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Metformin 500 mg (3 x 1)_2_1_29_07_2022_13:23"",
+    ""id"": null
+  }
+}",[],false
+2022-07-29T11:00:00Z,2022-07-29T12:09:31.362Z,ETTY ASTUTI,Metformin 500 mg (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_2_Metformin 500 mg (3 x 1)_2_2_29_07_2022_19:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Metformin 500 mg (3 x 1)_2_2_29_07_2022_19:09"",
+    ""id"": null
+  }
+}",[],false
+2022-08-15T05:00:00Z,2022-08-15T06:33:35.619Z,ETTY ASTUTI,Acarbose 100 (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_4_Acarbose 100 (3 x 1)_19_1_15_08_2022_13:33\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Acarbose 100 (3 x 1)_19_1_15_08_2022_13:33"",
+    ""id"": null
+  }
+}",[],false
+2022-08-16T05:00:00Z,2022-08-16T06:43:48.346Z,ETTY ASTUTI,Acarbose 100 (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_4_Acarbose 100 (3 x 1)_20_1_16_08_2022_13:43\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Acarbose 100 (3 x 1)_20_1_16_08_2022_13:43"",
+    ""id"": null
+  }
+}",[],false
+2022-08-20T05:00:00Z,2022-08-20T06:40:58.734Z,ETTY ASTUTI,Acarbose 100 (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_4_Acarbose 100 (3 x 1)_24_1_20_08_2022_13:40\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Acarbose 100 (3 x 1)_24_1_20_08_2022_13:40"",
+    ""id"": null
+  }
+}",[],false
+2022-07-29T05:00:00Z,2022-07-29T06:23:47.115Z,ETTY ASTUTI,Acarbose 100 (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_4_Acarbose 100 (3 x 1)_2_1_29_07_2022_13:23\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Acarbose 100 (3 x 1)_2_1_29_07_2022_13:23"",
+    ""id"": null
+  }
+}",[],false
+2022-07-29T11:00:00Z,2022-07-29T12:09:30.197Z,ETTY ASTUTI,Acarbose 100 (3 x 1),true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""td8qpgWXF7RVzFcwJ5TRzu485kt2\"", \""record\"", \""resep_4_Acarbose 100 (3 x 1)_2_2_29_07_2022_19:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Acarbose 100 (3 x 1)_2_2_29_07_2022_19:09"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T00:00:00Z,2022-07-20T00:32:41.286Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_0_6_20_07_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_0_6_20_07_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T12:00:00Z,2022-07-20T12:09:16.620Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_0_7_20_07_2022_19:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_0_7_20_07_2022_19:09"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T00:00:00Z,2022-07-21T00:07:41.796Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_0_8_21_07_2022_07:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_0_8_21_07_2022_07:07"",
+    ""id"": null
+  }
+}",[],false
+2022-07-23T00:00:00Z,2022-07-23T00:12:46.634Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_1_10_23_07_2022_07:12\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_1_10_23_07_2022_07:12"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T00:00:00Z,2022-07-20T00:32:45.703Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_1_4_20_07_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_1_4_20_07_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T12:00:00Z,2022-07-20T12:09:16.111Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_1_5_20_07_2022_19:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_1_5_20_07_2022_19:09"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T00:00:00Z,2022-07-21T00:07:41.025Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_1_6_21_07_2022_07:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_1_6_21_07_2022_07:07"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T00:00:00Z,2022-07-20T00:32:42.263Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_2_2_20_07_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_2_2_20_07_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T12:00:00Z,2022-07-20T12:09:15.537Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_2_3_20_07_2022_19:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_2_3_20_07_2022_19:09"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T00:00:00Z,2022-07-21T00:07:40.056Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_2_4_21_07_2022_07:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_2_4_21_07_2022_07:07"",
+    ""id"": null
+  }
+}",[],false
+2022-07-23T00:00:00Z,2022-07-23T00:12:46.200Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_2_8_23_07_2022_07:12\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_2_8_23_07_2022_07:12"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T00:00:00Z,2022-07-20T00:32:45.188Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_3_0_20_07_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_3_0_20_07_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T12:00:00Z,2022-07-20T12:09:14.978Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_3_1_20_07_2022_19:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_3_1_20_07_2022_19:09"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T00:00:00Z,2022-07-21T00:07:39.275Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_3_2_21_07_2022_07:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_3_2_21_07_2022_07:07"",
+    ""id"": null
+  }
+}",[],false
+2022-07-23T00:00:00Z,2022-07-23T00:12:45.782Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_3_6_23_07_2022_07:12\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_3_6_23_07_2022_07:12"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T00:00:00Z,2022-07-21T00:07:38.784Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_4_0_21_07_2022_07:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_4_0_21_07_2022_07:07"",
+    ""id"": null
+  }
+}",[],false
+2022-07-23T00:00:00Z,2022-07-23T00:12:45.305Z,SETYONO YOHANES,Metformin 850 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_4_4_23_07_2022_07:12\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_4_4_23_07_2022_07:12"",
+    ""id"": null
+  }
+}",[],false
+2022-08-02T06:00:00Z,2022-08-02T06:09:47.554Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_16_0_02_08_2022_13:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_16_0_02_08_2022_13:09"",
+    ""id"": null
+  }
+}",[],false
+2022-08-04T06:00:00Z,2022-08-04T06:15:18.535Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_18_0_04_08_2022_13:15\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_18_0_04_08_2022_13:15"",
+    ""id"": null
+  }
+}",[],false
+2022-08-05T06:00:00Z,2022-08-05T06:20:24.224Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_19_0_05_08_2022_13:20\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_19_0_05_08_2022_13:20"",
+    ""id"": null
+  }
+}",[],false
+2022-08-11T06:00:00Z,2022-08-11T06:13:19.201Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_25_0_11_08_2022_13:13\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_25_0_11_08_2022_13:13"",
+    ""id"": null
+  }
+}",[],false
+2022-08-13T06:00:00Z,2022-08-13T06:42:23.235Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_27_0_13_08_2022_13:42\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_27_0_13_08_2022_13:42"",
+    ""id"": null
+  }
+}",[],false
+2022-08-15T06:00:00Z,2022-08-15T06:24:19.233Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_29_0_15_08_2022_13:24\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_29_0_15_08_2022_13:24"",
+    ""id"": null
+  }
+}",[],false
+2022-07-19T06:00:00Z,2022-07-19T06:30:20.165Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_2_0_19_07_2022_13:30\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_2_0_19_07_2022_13:30"",
+    ""id"": null
+  }
+}",[],false
+2022-08-16T06:00:00Z,2022-08-16T06:06:21.757Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_30_0_16_08_2022_13:06\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_30_0_16_08_2022_13:06"",
+    ""id"": null
+  }
+}",[],false
+2022-08-17T06:00:00Z,2022-08-17T06:15:43.253Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_31_0_17_08_2022_13:15\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_31_0_17_08_2022_13:15"",
+    ""id"": null
+  }
+}",[],false
+2022-08-19T06:00:00Z,2022-08-19T06:27:15.856Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_33_0_19_08_2022_13:27\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_33_0_19_08_2022_13:27"",
+    ""id"": null
+  }
+}",[],false
+2022-08-20T06:00:00Z,2022-08-20T06:36:04.174Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_34_0_20_08_2022_13:36\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_34_0_20_08_2022_13:36"",
+    ""id"": null
+  }
+}",[],false
+2022-08-21T06:00:00Z,2022-08-21T06:04:01.254Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_35_0_21_08_2022_13:04\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_35_0_21_08_2022_13:04"",
+    ""id"": null
+  }
+}",[],false
+2022-08-22T06:00:00Z,2022-08-22T06:03:55.052Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_36_0_22_08_2022_13:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_36_0_22_08_2022_13:03"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T06:00:00Z,2022-07-20T06:00:20.957Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_3_0_20_07_2022_13:00\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_3_0_20_07_2022_13:00"",
+    ""id"": null
+  }
+}",[],false
+2022-08-27T06:00:00Z,2022-08-27T06:00:19.323Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_41_0_27_08_2022_13:00\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_41_0_27_08_2022_13:00"",
+    ""id"": null
+  }
+}",[],false
+2022-08-28T06:00:00Z,2022-08-28T06:07:43.498Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_42_0_28_08_2022_13:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_42_0_28_08_2022_13:07"",
+    ""id"": null
+  }
+}",[],false
+2022-08-29T06:00:00Z,2022-08-29T06:25:26.729Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_43_0_29_08_2022_13:25\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_43_0_29_08_2022_13:25"",
+    ""id"": null
+  }
+}",[],false
+2022-08-30T06:00:00Z,2022-08-30T06:46:53.567Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_44_0_30_08_2022_13:46\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_44_0_30_08_2022_13:46"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T06:00:00Z,2022-07-22T06:11:48.035Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_5_0_22_07_2022_13:11\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_5_0_22_07_2022_13:11"",
+    ""id"": null
+  }
+}",[],false
+2022-07-23T06:00:00Z,2022-07-23T06:20:12.136Z,SETYONO YOHANES,Ryzodeg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_6_0_23_07_2022_13:20\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_6_0_23_07_2022_13:20"",
+    ""id"": null
+  }
+}",[],false
+2022-08-01T23:00:00Z,2022-08-01T23:05:44.131Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_16_0_02_08_2022_06:05\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_16_0_02_08_2022_06:05"",
+    ""id"": null
+  }
+}",[],false
+2022-08-03T23:00:00Z,2022-08-03T23:16:34.355Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_18_0_04_08_2022_06:16\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_18_0_04_08_2022_06:16"",
+    ""id"": null
+  }
+}",[],false
+2022-08-04T23:00:00Z,2022-08-04T23:51:51.239Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_19_0_05_08_2022_06:51\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_19_0_05_08_2022_06:51"",
+    ""id"": null
+  }
+}",[],false
+2022-08-05T23:00:00Z,2022-08-05T23:41:17.568Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_20_0_06_08_2022_06:41\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_20_0_06_08_2022_06:41"",
+    ""id"": null
+  }
+}",[],false
+2022-08-08T23:00:00Z,2022-08-08T23:01:39.663Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_23_0_09_08_2022_06:01\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_23_0_09_08_2022_06:01"",
+    ""id"": null
+  }
+}",[],false
+2022-08-09T23:00:00Z,2022-08-09T23:53:21.771Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_24_0_10_08_2022_06:53\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_24_0_10_08_2022_06:53"",
+    ""id"": null
+  }
+}",[],false
+2022-08-16T23:00:00Z,2022-08-16T23:23:34.497Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_31_0_17_08_2022_06:23\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_31_0_17_08_2022_06:23"",
+    ""id"": null
+  }
+}",[],false
+2022-08-18T23:00:00Z,2022-08-18T23:04:22.787Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_33_0_19_08_2022_06:04\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_33_0_19_08_2022_06:04"",
+    ""id"": null
+  }
+}",[],false
+2022-08-22T23:00:00Z,2022-08-22T23:18:59.453Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_37_0_23_08_2022_06:18\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_37_0_23_08_2022_06:18"",
+    ""id"": null
+  }
+}",[],false
+2022-08-24T23:00:00Z,2022-08-24T23:16:05.628Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_39_0_25_08_2022_06:16\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_39_0_25_08_2022_06:16"",
+    ""id"": null
+  }
+}",[],false
+2022-08-25T23:00:00Z,2022-08-25T23:12:09.599Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_40_0_26_08_2022_06:12\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_40_0_26_08_2022_06:12"",
+    ""id"": null
+  }
+}",[],false
+2022-08-26T23:00:00Z,2022-08-26T23:07:04.265Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_41_0_27_08_2022_06:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_41_0_27_08_2022_06:07"",
+    ""id"": null
+  }
+}",[],false
+2022-08-28T23:00:00Z,2022-08-28T23:44:59.902Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_43_0_29_08_2022_06:44\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_43_0_29_08_2022_06:44"",
+    ""id"": null
+  }
+}",[],false
+2022-08-31T23:00:00Z,2022-08-31T23:31:56.308Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_46_0_01_09_2022_06:31\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_46_0_01_09_2022_06:31"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T23:00:00Z,2022-07-21T23:09:28.049Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_5_0_22_07_2022_06:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_5_0_22_07_2022_06:09"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T23:00:00Z,2022-07-22T23:07:58.592Z,SETYONO YOHANES,Vit B Complex,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_6_0_23_07_2022_06:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_6_0_23_07_2022_06:07"",
+    ""id"": null
+  }
+}",[],false
+2022-08-01T23:00:00Z,2022-08-01T23:05:43.467Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_16_0_02_08_2022_06:05\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_16_0_02_08_2022_06:05"",
+    ""id"": null
+  }
+}",[],false
+2022-08-03T23:00:00Z,2022-08-03T23:16:33.821Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_18_0_04_08_2022_06:16\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_18_0_04_08_2022_06:16"",
+    ""id"": null
+  }
+}",[],false
+2022-08-04T23:00:00Z,2022-08-04T23:51:52.122Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_19_0_05_08_2022_06:51\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_19_0_05_08_2022_06:51"",
+    ""id"": null
+  }
+}",[],false
+2022-08-05T23:00:00Z,2022-08-05T23:41:17.104Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_20_0_06_08_2022_06:41\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_20_0_06_08_2022_06:41"",
+    ""id"": null
+  }
+}",[],false
+2022-08-08T23:00:00Z,2022-08-08T23:01:39.257Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_23_0_09_08_2022_06:01\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_23_0_09_08_2022_06:01"",
+    ""id"": null
+  }
+}",[],false
+2022-08-09T23:00:00Z,2022-08-09T23:53:21.288Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_24_0_10_08_2022_06:53\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_24_0_10_08_2022_06:53"",
+    ""id"": null
+  }
+}",[],false
+2022-08-16T23:00:00Z,2022-08-16T23:23:34.023Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_31_0_17_08_2022_06:23\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_31_0_17_08_2022_06:23"",
+    ""id"": null
+  }
+}",[],false
+2022-08-18T23:00:00Z,2022-08-18T23:04:22.357Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_33_0_19_08_2022_06:04\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_33_0_19_08_2022_06:04"",
+    ""id"": null
+  }
+}",[],false
+2022-08-22T23:00:00Z,2022-08-22T23:18:58.968Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_37_0_23_08_2022_06:18\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_37_0_23_08_2022_06:18"",
+    ""id"": null
+  }
+}",[],false
+2022-08-24T23:00:00Z,2022-08-24T23:16:05.085Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_39_0_25_08_2022_06:16\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_39_0_25_08_2022_06:16"",
+    ""id"": null
+  }
+}",[],false
+2022-08-25T23:00:00Z,2022-08-25T23:12:09.096Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_40_0_26_08_2022_06:12\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_40_0_26_08_2022_06:12"",
+    ""id"": null
+  }
+}",[],false
+2022-08-26T23:00:00Z,2022-08-26T23:07:03.788Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_41_0_27_08_2022_06:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_41_0_27_08_2022_06:07"",
+    ""id"": null
+  }
+}",[],false
+2022-08-28T23:00:00Z,2022-08-28T23:44:59.485Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_43_0_29_08_2022_06:44\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_43_0_29_08_2022_06:44"",
+    ""id"": null
+  }
+}",[],false
+2022-08-31T23:00:00Z,2022-08-31T23:31:55.803Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_46_0_01_09_2022_06:31\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_46_0_01_09_2022_06:31"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T23:00:00Z,2022-07-21T23:09:27.314Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_5_0_22_07_2022_06:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_5_0_22_07_2022_06:09"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T23:00:00Z,2022-07-22T23:07:58.052Z,SETYONO YOHANES,Amlodipin 10,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_6_0_23_07_2022_06:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_6_0_23_07_2022_06:07"",
+    ""id"": null
+  }
+}",[],false
+2022-07-27T11:00:00Z,2022-07-27T11:59:55.773Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_10_0_27_07_2022_18:59\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_10_0_27_07_2022_18:59"",
+    ""id"": null
+  }
+}",[],false
+2022-07-29T11:00:00Z,2022-07-29T11:26:33.215Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_12_0_29_07_2022_18:26\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_12_0_29_07_2022_18:26"",
+    ""id"": null
+  }
+}",[],false
+2022-08-01T11:00:00Z,2022-08-01T11:32:05.537Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_15_0_01_08_2022_18:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_15_0_01_08_2022_18:32"",
+    ""id"": null
+  }
+}",[],false
+2022-08-08T11:00:00Z,2022-08-08T11:38:43.366Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_22_0_08_08_2022_18:38\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_22_0_08_08_2022_18:38"",
+    ""id"": null
+  }
+}",[],false
+2022-08-10T11:00:00Z,2022-08-10T11:14:41.546Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_24_0_10_08_2022_18:14\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_24_0_10_08_2022_18:14"",
+    ""id"": null
+  }
+}",[],false
+2022-08-12T11:00:00Z,2022-08-12T11:08:58.221Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_26_0_12_08_2022_18:08\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_26_0_12_08_2022_18:08"",
+    ""id"": null
+  }
+}",[],false
+2022-08-17T11:00:00Z,2022-08-17T11:27:30.415Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_31_0_17_08_2022_18:27\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_31_0_17_08_2022_18:27"",
+    ""id"": null
+  }
+}",[],false
+2022-08-19T11:00:00Z,2022-08-19T11:52:12.326Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_33_0_19_08_2022_18:52\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_33_0_19_08_2022_18:52"",
+    ""id"": null
+  }
+}",[],false
+2022-08-26T11:00:00Z,2022-08-26T11:31:49.043Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_40_0_26_08_2022_18:31\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_40_0_26_08_2022_18:31"",
+    ""id"": null
+  }
+}",[],false
+2022-08-28T11:00:00Z,2022-08-28T11:24:37.361Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_42_0_28_08_2022_18:24\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_42_0_28_08_2022_18:24"",
+    ""id"": null
+  }
+}",[],false
+2022-08-31T11:00:00Z,2022-08-31T11:03:58.124Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_45_0_31_08_2022_18:03\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_45_0_31_08_2022_18:03"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T11:00:00Z,2022-07-21T11:04:47.428Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_4_0_21_07_2022_18:04\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_4_0_21_07_2022_18:04"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T11:00:00Z,2022-07-22T11:00:38.962Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_5_0_22_07_2022_18:00\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_5_0_22_07_2022_18:00"",
+    ""id"": null
+  }
+}",[],false
+2022-07-24T11:00:00Z,2022-07-24T11:02:50.596Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_7_0_24_07_2022_18:02\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_7_0_24_07_2022_18:02"",
+    ""id"": null
+  }
+}",[],false
+2022-08-13T11:00:00Z,2022-08-13T11:19:41.482Z,SETYONO YOHANES,Fenofibrat 300 mg,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_27_0_13_08_2022_18:19\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_27_0_13_08_2022_18:19"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T00:00:00Z,2022-07-22T01:47:04.110Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_0_10_22_07_2022_08:47\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_0_10_22_07_2022_08:47"",
+    ""id"": null
+  }
+}",[],false
+2022-07-19T00:00:00Z,2022-07-19T01:25:55.514Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_0_4_19_07_2022_08:25\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_0_4_19_07_2022_08:25"",
+    ""id"": null
+  }
+}",[],false
+2022-07-19T00:00:00Z,2022-07-19T01:25:57.507Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_1_2_19_07_2022_08:25\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_1_2_19_07_2022_08:25"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T00:00:00Z,2022-07-22T01:47:03.610Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_1_8_22_07_2022_08:47\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_1_8_22_07_2022_08:47"",
+    ""id"": null
+  }
+}",[],false
+2022-07-19T00:00:00Z,2022-07-19T01:25:56.611Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_2_0_19_07_2022_08:25\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_2_0_19_07_2022_08:25"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T00:00:00Z,2022-07-22T01:47:03.136Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_2_6_22_07_2022_08:47\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_2_6_22_07_2022_08:47"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T00:00:00Z,2022-07-22T01:47:02.647Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_3_4_22_07_2022_08:47\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_3_4_22_07_2022_08:47"",
+    ""id"": null
+  }
+}",[],false
+2022-07-22T00:00:00Z,2022-07-22T01:47:02.070Z,SETYONO YOHANES,Metformin 850 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_1_Metformin 850 mg_4_2_22_07_2022_08:47\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_1_Metformin 850 mg_4_2_22_07_2022_08:47"",
+    ""id"": null
+  }
+}",[],false
+2022-08-23T06:00:00Z,2022-08-23T07:16:24.130Z,SETYONO YOHANES,Ryzodeg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_37_0_23_08_2022_14:16\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_37_0_23_08_2022_14:16"",
+    ""id"": null
+  }
+}",[],false
+2022-08-24T06:00:00Z,2022-08-24T07:43:03.556Z,SETYONO YOHANES,Ryzodeg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_38_0_24_08_2022_14:43\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_38_0_24_08_2022_14:43"",
+    ""id"": null
+  }
+}",[],false
+2022-07-21T06:00:00Z,2022-07-21T07:53:28.571Z,SETYONO YOHANES,Ryzodeg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_2_Ryzodeg_4_0_21_07_2022_14:53\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Ryzodeg_4_0_21_07_2022_14:53"",
+    ""id"": null
+  }
+}",[],false
+2022-08-13T23:00:00Z,2022-08-14T00:09:14.502Z,SETYONO YOHANES,Vit B Complex,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_28_0_14_08_2022_07:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_28_0_14_08_2022_07:09"",
+    ""id"": null
+  }
+}",[],false
+2022-08-23T23:00:00Z,2022-08-24T00:19:31.127Z,SETYONO YOHANES,Vit B Complex,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_38_0_24_08_2022_07:19\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_38_0_24_08_2022_07:19"",
+    ""id"": null
+  }
+}",[],false
+2022-07-19T23:00:00Z,2022-07-20T00:32:43.252Z,SETYONO YOHANES,Vit B Complex,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_3_0_20_07_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_3_0_20_07_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-08-29T23:00:00Z,2022-08-30T00:42:19.233Z,SETYONO YOHANES,Vit B Complex,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_44_0_30_08_2022_07:42\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_44_0_30_08_2022_07:42"",
+    ""id"": null
+  }
+}",[],false
+2022-08-30T23:00:00Z,2022-08-31T00:32:59.860Z,SETYONO YOHANES,Vit B Complex,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_45_0_31_08_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_45_0_31_08_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T23:00:00Z,2022-07-21T00:07:44.334Z,SETYONO YOHANES,Vit B Complex,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_3_Vit B Complex_4_0_21_07_2022_07:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_3_Vit B Complex_4_0_21_07_2022_07:07"",
+    ""id"": null
+  }
+}",[],false
+2022-08-13T23:00:00Z,2022-08-14T00:09:13.934Z,SETYONO YOHANES,Amlodipin 10,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_28_0_14_08_2022_07:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_28_0_14_08_2022_07:09"",
+    ""id"": null
+  }
+}",[],false
+2022-08-23T23:00:00Z,2022-08-24T00:19:30.693Z,SETYONO YOHANES,Amlodipin 10,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_38_0_24_08_2022_07:19\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_38_0_24_08_2022_07:19"",
+    ""id"": null
+  }
+}",[],false
+2022-07-19T23:00:00Z,2022-07-20T00:32:44.574Z,SETYONO YOHANES,Amlodipin 10,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_3_0_20_07_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_3_0_20_07_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-08-29T23:00:00Z,2022-08-30T00:42:18.786Z,SETYONO YOHANES,Amlodipin 10,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_44_0_30_08_2022_07:42\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_44_0_30_08_2022_07:42"",
+    ""id"": null
+  }
+}",[],false
+2022-08-30T23:00:00Z,2022-08-31T00:32:59.256Z,SETYONO YOHANES,Amlodipin 10,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_45_0_31_08_2022_07:32\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_45_0_31_08_2022_07:32"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T23:00:00Z,2022-07-21T00:07:43.712Z,SETYONO YOHANES,Amlodipin 10,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_4_Amlodipin 10_4_0_21_07_2022_07:07\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_4_Amlodipin 10_4_0_21_07_2022_07:07"",
+    ""id"": null
+  }
+}",[],false
+2022-07-30T11:00:00Z,2022-07-30T12:01:04.629Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_13_0_30_07_2022_19:01\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_13_0_30_07_2022_19:01"",
+    ""id"": null
+  }
+}",[],false
+2022-08-03T11:00:00Z,2022-08-03T12:04:29.913Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_17_0_03_08_2022_19:04\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_17_0_03_08_2022_19:04"",
+    ""id"": null
+  }
+}",[],false
+2022-08-04T11:00:00Z,2022-08-04T12:18:02.603Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_18_0_04_08_2022_19:18\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_18_0_04_08_2022_19:18"",
+    ""id"": null
+  }
+}",[],false
+2022-08-09T11:00:00Z,2022-08-09T12:10:16.128Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_23_0_09_08_2022_19:10\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_23_0_09_08_2022_19:10"",
+    ""id"": null
+  }
+}",[],false
+2022-08-16T11:00:00Z,2022-08-16T12:43:02.449Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_30_0_16_08_2022_19:43\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_30_0_16_08_2022_19:43"",
+    ""id"": null
+  }
+}",[],false
+2022-08-18T11:00:00Z,2022-08-18T12:16:16.657Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_32_0_18_08_2022_19:16\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_32_0_18_08_2022_19:16"",
+    ""id"": null
+  }
+}",[],false
+2022-07-20T11:00:00Z,2022-07-20T12:09:14.212Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_3_0_20_07_2022_19:09\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_3_0_20_07_2022_19:09"",
+    ""id"": null
+  }
+}",[],false
+2022-08-27T11:00:00Z,2022-08-27T12:12:54.698Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_41_0_27_08_2022_19:12\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_41_0_27_08_2022_19:12"",
+    ""id"": null
+  }
+}",[],false
+2022-08-15T11:00:00Z,2022-08-15T12:05:30.726Z,SETYONO YOHANES,Fenofibrat 300 mg,true,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""aRfcdQXqBHdzUKCgNmS59WGaYez1\"", \""record\"", \""resep_5_Fenofibrat 300 mg_29_0_15_08_2022_19:05\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_5_Fenofibrat 300 mg_29_0_15_08_2022_19:05"",
+    ""id"": null
+  }
+}",[],false
+2022-07-17T23:00:00Z,2022-07-17T23:49:29.569Z,Yulia Betty Murias,Amlodipin 5,false,"{
+  ""__key__"": {
+    ""namespace"": """",
+    ""app"": ""zet~minum-obat-80264"",
+    ""path"": ""\""pasien\"", \""lwUeKiltSkf9TjwV1migz4OJriT2\"", \""record\"", \""resep_2_Amlodipin 5_1_0_18_07_2022_06:49\"""",
+    ""kind"": ""record"",
+    ""name"": ""resep_2_Amlodipin 5_1_0_18_07_2022_06:49"",
+    ""id"": null
+  }
+}",[],false
