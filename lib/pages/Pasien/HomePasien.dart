@@ -31,7 +31,10 @@ class _HomePasienState extends State<HomePasien> {
       backgroundColor: Color.fromRGBO(250, 248, 246, 1),
       appBar: AppBar(
         backgroundColor: Colors.blue[600],
-        title: Text("Minum Obat - Pasien"),
+        title: FittedBox(
+          child: Text("Minum Obat - Pasien"),
+          fit: BoxFit.fitWidth,
+        ),
         actions: <Widget>[
           Padding(
             padding: EdgeInsets.all(10),
@@ -40,7 +43,7 @@ class _HomePasienState extends State<HomePasien> {
                 await _auth.signOut();
               },
               icon: Icon(
-                Icons.person,
+                Icons.logout_rounded,
                 color: Colors.orangeAccent,
               ),
               label: Text(
@@ -52,113 +55,114 @@ class _HomePasienState extends State<HomePasien> {
         ],
       ),
       body: SingleChildScrollView(
+        padding: EdgeInsets.all(20.0),
         scrollDirection: Axis.vertical,
-        child: (Padding(
-          padding: EdgeInsets.all(20.0),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Center(
-                child: CircleAvatar(
-                  child: Image(
-                    image: AssetImage('assets/avatar.png'),
-                  ),
-                  radius: 50,
-                  backgroundColor: Colors.white,
+        child: (Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Center(
+              child: CircleAvatar(
+                child: Image(
+                  image: AssetImage('assets/avatar.png'),
                 ),
+                radius: 50,
+                backgroundColor: Colors.white,
               ),
-              SizedBox(height: 20.0),
-              Row(
-                children: [
-                  Text(
-                    "Nama     :",
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Text(
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              children: [
+                Text(
+                  "Nama     :",
+                  style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
+                SizedBox(
+                  width: 20.0,
+                ),
+                FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
                     pasien.nama,
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 20.0,
                     ),
-                  )
-                ],
-              ),
-              SizedBox(height: 20.0),
-              Row(
-                children: [
-                  Text(
-                    "ID            :",
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
                   ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Text(
-                    pasien.id,
-                    style: TextStyle(
-                      color: Colors.black,
+                )
+              ],
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              children: [
+                Text(
+                  "ID            :",
+                  style: TextStyle(
                       fontSize: 20.0,
-                    ),
-                  )
-                ],
-              ),
-              SizedBox(
-                height: 20.0,
-              ),
-              Row(
-                children: [
-                  Text(
-                    "Usia        :",
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
+                SizedBox(
+                  width: 20.0,
+                ),
+                Text(
+                  pasien.id,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.0,
                   ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Text(
-                    pasien.tahun_lahir.toString(),
-                    style: TextStyle(
-                      color: Colors.black,
+                )
+              ],
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Usia        :",
+                  style: TextStyle(
                       fontSize: 20.0,
-                    ),
-                  )
-                ],
-              ),
-              SizedBox(
-                height: 20.0,
-              ),
-              Row(
-                children: [
-                  Text(
-                    "Jenis Kelamin   :",
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
+                SizedBox(
+                  width: 20.0,
+                ),
+                Text(
+                  pasien.tahun_lahir.toString(),
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.0,
                   ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Text(
-                    pasien.gender,
-                    style: TextStyle(fontSize: 20.0, color: Colors.black),
-                  )
-                ],
-              ),
-            ],
-          ),
+                )
+              ],
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Jenis Kelamin   :",
+                  style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
+                SizedBox(
+                  width: 20.0,
+                ),
+                Text(
+                  pasien.gender,
+                  style: TextStyle(fontSize: 20.0, color: Colors.black),
+                )
+              ],
+            ),
+          ],
         )),
       ),
       floatingActionButton: FloatingActionButton.extended(
