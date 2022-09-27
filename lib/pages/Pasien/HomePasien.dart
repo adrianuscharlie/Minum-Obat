@@ -4,7 +4,7 @@ import 'package:farmasi/service/Database.dart';
 import 'package:farmasi/service/Services.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 import '../../Models/Obat.dart';
 import '../../Models/Pasien.dart';
 import '../../service/Auth.dart';
@@ -32,7 +32,11 @@ class _HomePasienState extends State<HomePasien> {
       appBar: AppBar(
         backgroundColor: Colors.blue[600],
         title: FittedBox(
-          child: Text("Minum Obat - Pasien"),
+          child: Text(
+            "Minum Obat - Pasien",
+            style:
+                GoogleFonts.ubuntu(fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
           fit: BoxFit.fitWidth,
         ),
         actions: <Widget>[
@@ -48,122 +52,107 @@ class _HomePasienState extends State<HomePasien> {
               ),
               label: Text(
                 "Logout",
-                style: TextStyle(color: Colors.orangeAccent),
+                style: GoogleFonts.ubuntu(color: Colors.orangeAccent),
               ),
             ),
           )
         ],
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.fromLTRB(30, 50, 20, 20),
         scrollDirection: Axis.vertical,
-        child: (Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Center(
-              child: CircleAvatar(
-                child: Image(
-                  image: AssetImage('assets/avatar.png'),
-                ),
-                radius: 50,
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              CircleAvatar(
+                child: Image(image: AssetImage('assets/avatar.png')),
+                radius: 50.0,
                 backgroundColor: Colors.white,
               ),
-            ),
-            SizedBox(height: 20.0),
-            Row(
-              children: [
-                Text(
-                  "Nama     :",
-                  style: TextStyle(
+              SizedBox(
+                height: 30.0,
+              ),
+              Text("Nama",
+                  style: GoogleFonts.ubuntu(
                       fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black),
+                      color: Colors.amber,
+                      fontWeight: FontWeight.bold)),
+              SizedBox(
+                height: 20.0,
+              ),
+              FittedBox(
+                fit: BoxFit.cover,
+                child: Text(
+                  pasien.nama,
+                  style:
+                      GoogleFonts.ubuntu(fontSize: 20.0, color: Colors.black),
                 ),
-                SizedBox(
-                  width: 20.0,
-                ),
-                FittedBox(
-                  fit: BoxFit.scaleDown,
-                  child: Text(
-                    pasien.nama,
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20.0,
-                    ),
-                  ),
-                )
-              ],
-            ),
-            SizedBox(height: 20.0),
-            Row(
-              children: [
-                Text(
-                  "ID            :",
-                  style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black),
-                ),
-                SizedBox(
-                  width: 20.0,
-                ),
-                Text(
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Text(
+                "Nomor RM",
+                style: GoogleFonts.ubuntu(
+                    fontSize: 20.0,
+                    color: Colors.amber,
+                    fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              FittedBox(
+                fit: BoxFit.cover,
+                child: Text(
                   pasien.id,
-                  style: TextStyle(
-                    color: Colors.black,
+                  style:
+                      GoogleFonts.ubuntu(fontSize: 20.0, color: Colors.black),
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Text(
+                "Usia",
+                style: GoogleFonts.ubuntu(
                     fontSize: 20.0,
-                  ),
-                )
-              ],
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            Row(
-              children: [
-                Text(
-                  "Usia        :",
-                  style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black),
-                ),
-                SizedBox(
-                  width: 20.0,
-                ),
-                Text(
+                    color: Colors.amber,
+                    fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              FittedBox(
+                fit: BoxFit.cover,
+                child: Text(
                   pasien.tahun_lahir.toString(),
-                  style: TextStyle(
-                    color: Colors.black,
+                  style:
+                      GoogleFonts.ubuntu(fontSize: 20.0, color: Colors.black),
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Text(
+                "Jenis Kelamin",
+                style: GoogleFonts.ubuntu(
                     fontSize: 20.0,
-                  ),
-                )
-              ],
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            Row(
-              children: [
-                Text(
-                  "Jenis Kelamin   :",
-                  style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black),
-                ),
-                SizedBox(
-                  width: 20.0,
-                ),
-                Text(
+                    color: Colors.amber,
+                    fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              FittedBox(
+                fit: BoxFit.cover,
+                child: Text(
                   pasien.gender,
-                  style: TextStyle(fontSize: 20.0, color: Colors.black),
-                )
-              ],
-            ),
-          ],
-        )),
+                  style:
+                      GoogleFonts.ubuntu(fontSize: 20.0, color: Colors.black),
+                ),
+              ),
+            ]),
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'package:google_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../Models/Jadwal.dart';
 import '../../Models/Obat.dart';
 import '../../Models/Pasien.dart';
@@ -8,11 +9,11 @@ import '../../service/Database.dart';
 
 class ListJadwal extends StatefulWidget {
   ListJadwal({Key? key}) : super(key: key);
-  List<Jadwal> jadwal=[];
+  List<Jadwal> jadwal = [];
   Pasien pasien = Pasien(uid: "");
 
-  ListJadwal.Pasien({jadwal,pasien}) {
-    this.jadwal=jadwal;
+  ListJadwal.Pasien({jadwal, pasien}) {
+    this.jadwal = jadwal;
     this.pasien = pasien;
   }
 
@@ -34,13 +35,9 @@ class _ListJadwalState extends State<ListJadwal> {
                 child: Card(
                     child: ListTile(
                   tileColor: Colors.lightBlueAccent,
-                  title: Text(
-                    jadwal[index].nama_obat,
-                    style: TextStyle(
-                      fontSize: 24.0,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
+                  title: Text(jadwal[index].nama_obat,
+                      style: GoogleFonts.ubuntu(
+                          fontSize: 24.0, fontWeight: FontWeight.bold)),
                   subtitle: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -48,28 +45,37 @@ class _ListJadwalState extends State<ListJadwal> {
                       SizedBox(
                         height: 10.0,
                       ),
-                      Text(
-                        jadwal[index].desc_obat,
-                        style: TextStyle(
-                            fontSize: 15, fontWeight: FontWeight.bold),
+                      FittedBox(
+                        fit: BoxFit.fitWidth,
+                        child: Text(jadwal[index].desc_obat,
+                            style: GoogleFonts.ubuntu(
+                                fontSize: 15, fontWeight: FontWeight.bold)),
                       ),
                       //Text("Tanggal Mulai :"+Services().jadwalPasien(resep[index].tanggal_mulai)),
                       //Text("Tanggal Selesai : "+Services().jadwalPasien(resep[index].tanggal_selesai)),
-                      Text("Jadwal Konsumsi : " +
-                            jadwal[index].formattedDate,
-                        style: TextStyle(
-                            fontSize: 15, fontWeight: FontWeight.bold),
+                      FittedBox(
+                        fit: BoxFit.fitWidth,
+                        child: Text(
+                          "Jadwal Konsumsi : " + jadwal[index].formattedDate,
+                          style: GoogleFonts.ubuntu(
+                              fontSize: 15, fontWeight: FontWeight.bold),
+                        ),
                       ),
                       RaisedButton(
                         onPressed: () async {
                           setState(() {
                             DatabaseServices(uid: pasien.uid)
                                 .sendRecord(pasien, jadwal[index]);
-                            DatabaseServices(uid: pasien.uid).deleteJadwal(pasien, jadwal[index].id);
+                            DatabaseServices(uid: pasien.uid)
+                                .deleteJadwal(pasien, jadwal[index].id);
                             jadwal.removeAt(index);
                           });
                         },
-                        child: Text("Sudah Minum"),
+                        child: Text(
+                          "Sudah Minum",
+                          style: GoogleFonts.ubuntu(
+                              fontSize: 20.0, fontWeight: FontWeight.bold),
+                        ),
                       )
                     ],
                   ),
