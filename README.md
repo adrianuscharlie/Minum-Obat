@@ -1,5 +1,5 @@
 # Minum Obat (Medication and Daily Reminder Application)
-Developing apps for patients daily reminder medication. The purpose of building this app are to give reminder for elderly patient to drink their medicine more on time and more easier to remember the schedule of drinking the medicine. From this app, the pharmacist can input the medicine for the patient according to the doctor's prescription.
+Developing apps for patients daily reminder medication. The purpose of building this app are to give reminder for elderly patient to drink their medicine more on time and more easier to remember the schedule of drinking the medicine. From this app, the pharmacist can input the medicine for the patient according to the doctor's prescription. This project are fully funded by Sanata Dharma University (Freelance Contract).
 
 ## Table Content
 - About The Project
